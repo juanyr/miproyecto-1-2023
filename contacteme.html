@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contacteme.css">
     <title>Document</title>
 </head>
 <body>
@@ -27,30 +28,28 @@
     </div>
     <!--Aqui colocamos el cuerpo del index-->
     <div id="CuerpoContenido">
-        <div id="CuerpoImagen">
-            <div id="BordeImagen">
-                <img src="/img/Recurso 1.png" height="400" width="480">
-            </div>
-        </div>
-        <div id="CuerpoDetalle">
-            <h1>Bienvenidos</h1>
-            <div id="DatosDetalle">
-                <p>¡Te damos la más cálida bienvenida a nuestra próspera comunidad de clientes!
-                    Nos llena de entusiasmo emprender juntos este emocionante viaje y brindarte el apoyo necesario para que tu negocio alcance el éxito que merece. 
-                    Aquí, encontrarás una red de colaboradores dispuestos a impulsarte hacia el crecimiento. ¡Es un honor contar contigo como parte de nuestra comunidad!</p>
-            </div>
-            <div id="Botones">
-                <div id="BotonFavorito">
-                    <div id="MarcoFavorito" class="DiseñoBoton">
-                        Mi Persona Favorita
-                  </div>
-                </div>
-                <div id="BotonUbicacion">
-                    <div id="MarcoUbicacion" class="DiseñoBoton">
-                    MiUbicacion
-                </div>
-            </div>
-        </div>
+        <div id="FormularioDatos">
+         <fieldset>
+            <legend>Mis Datos</legend> 
+             <form>
+                <label>Nombre</label>
+                <input type="text" placeholder="Ingrese su Nombre">
+                <label>Apellido</label>
+                <input type="text" placeholder="Ingrese su Apellido">
+                <label>Edad</label>
+                <input type="number" placeholder="Ingrese su Edad">
+                 <select>
+                    <option value="cbba">cochabamba</option>
+                    <option value="lpz">la paz</option>
+                    <option value="pts">potosi</option>
+                    <option value="ch">chuquisaca</option>
+                    <option value="scz">santa cruz</option>
+                 </select>
+                 <label>Descripcion</label>
+                  <textarea></textarea>
+                  <input type="button" value="INSERTAR">
+             </form> 
+         </fieldset>
     </div>
     </div>
     <!--Aqui colocaremos el pie de la web-->
@@ -59,7 +58,7 @@
         <div id="MenuFuter">
             <nav>
                 <a href="index.html">inicio</a>
-                <a href="galeria.html">mis videos</a>
+                <a href="galeria html">mis videos</a>
                 <a href="#">mi musica</a>
                 <a href="contacteme.html">contactenos</a>
             </nav>
